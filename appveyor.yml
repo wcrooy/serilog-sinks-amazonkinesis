@@ -14,7 +14,8 @@ artifacts:
 - path: Serilog.*.nupkg
 deploy:
 - provider: NuGet
+  server: https://www.myget.org/F/wouteralbelli/api/v2/package
   api_key:
-    secure: nvZ/z+pMS91b3kG4DgfES5AcmwwGoBYQxr9kp4XiJHj25SAlgdIxFx++1N0lFH2x--toegevoegd
+    secure: e0623458-ef29-46c6-820e-de8a1b6731a9
   on:
     branch: master    

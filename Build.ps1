@@ -1,5 +1,5 @@
 param(
-    [String] $majorMinor = "2.1",  # 2.1
+    [String] $majorMinor = "3.0",  # 2.1
     [String] $patch = "0",         # $env:APPVEYOR_BUILD_VERSION
     [String] $customLogger = "",   # C:\Program Files\AppVeyor\BuildAgent\Appveyor.MSBuildLogger.dll
     [Switch] $notouch
